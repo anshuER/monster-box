@@ -14,7 +14,7 @@ export default class App extends Component {
     };
     // this.handleChange=this.handleChange.bind(this);  if we do not use arrow function then we have to bind here to use 'this' and setstate method 
   }
-
+// this is new change
   // apiCall = async() => {
   //   try {
   //     let res = await fetch('https://jsonplaceholder.typicode.com/users');
@@ -52,7 +52,6 @@ export default class App extends Component {
           
         //  handleChange={e=>this.setState({searchField:e.target.value})}
         />
-
         <CardList monsters={filterMonsters} />
       </div>
     )
